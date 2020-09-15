@@ -1,0 +1,330 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+.mobile{
+    width: 350px;
+    height: 715px;
+    border: 12px solid white;
+    border-radius: 32px;
+    box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+    transform: scale(0.6);
+    margin-left: 250px;
+    background-color:hsl(270, 20%, 96%);
+}
+.head{
+    height: 90px;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-radius: 20px 20px 10px 10px;
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 2px;
+    border: 2px solid white;
+}
+.head::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    top: -1px;
+    left: 64px;
+    height: 26px;
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 40px 20px;
+}
+.desc .arrow{
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.content{
+    width: 100%;
+}
+.content .name{
+    color: white;
+    font-size: 15px;
+}
+
+.content .status{
+    color: hsl(276, 100%, 81%);
+    font-size: 11px;
+   
+}
+.messages .text-reply1{
+    background-color:hsl(206, 6%, 79%);
+    font-size: 11px;
+    width: 190px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.messages .text-reply1 p{
+    padding: 10px;
+    color: hsl(276, 55%, 52%);
+}
+.dots{
+    margin-top: 13px;
+    margin-left: 110px;
+}
+.messages .text-reply2{
+    background-color:hsl(206, 6%, 79%);
+    font-size: 11px;
+    width: 190px;
+    border-radius:15px 10px 15px 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+.messages .text-reply2 p{
+    color: hsl(276, 55%, 52%);
+    padding: 10px;
+}
+.messages .pics img{
+    width: 60px;
+    height: 60px;
+    margin-left: 8px;
+    border-radius: 15px;
+    
+}
+.messages .pics{
+    margin: 20px 10px 10px 97px;
+}
+.messages .user-text1{
+    background-color:hsl(0, 0%, 100%);
+    font-size: 11px;
+    width: 190px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 121px;
+    margin-bottom: 7px;
+}
+.messages .user-text1 p{
+    padding: 10px;
+    color: hsl(271, 15%, 43%);
+}
+.messages .user-text2{
+    background-color:hsl(0, 0%, 100%);
+    font-size: 11px;
+    width: 110px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 205px;
+    margin-bottom: 7px;
+}
+.messages .user-text2 p{
+    padding: 10px;
+    color: hsl(271, 15%, 43%);
+}
+.messages .text-reply3{
+    background-color:hsl(206, 6%, 79%);
+    font-size: 11px;
+    width: 190px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.messages .text-reply3 p{
+    color: hsl(276, 55%, 52%);
+    padding: 10px;
+}
+.messages .offer1{
+    background-image:linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    font-size: 11px;
+    width: 230px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    align-items: center;
+    height: 45px;
+}
+.messages .offer2{
+    background-image:linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    font-size: 11px;
+    width: 230px;
+    border-radius:15px 10px 15px 10px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    align-items: center;
+    height: 45px;
+
+}
+.messages .offer1 p{
+    color: rgba(211, 189, 189, 0.822);
+    margin: 10px 30px 10px 10px !important;
+    font-weight: 400;
+}
+.messages .offer2 p{
+    color: rgba(211, 189, 189, 0.822);
+    margin: 10px 50px 10px 10px !important;
+    font-weight: 400;
+}
+span.dollar1{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: white;
+}
+span.dollar2{
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: white;
+}
+form {
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px !important;
+}
+form input{
+    border: .5px solid rgba(202, 199, 199, 0.192) !important;
+    border-radius: 20px !important;
+    outline: none !important;
+    padding: 20px !important;
+    font-size: 12px !important;
+    color: hsl(270, 7%, 64%)!important;
+}
+.fa-circle-thin{
+    color: rgba(252, 252, 252, 0.562) !important;
+    font-size: 20px !important;
+}
+
+.inputWithIcon{
+    position: relative;
+}
+.inputWithIcon i{
+    position: absolute;
+    right: 16px;
+    bottom: 9px;
+    color: white;
+}
+.inputWithIcon.iconBG i{
+    background-color:hsl(271, 36%, 24%);
+    padding: 9px 11px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.wrapper::before{
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 200px;
+}
+.col-md-6 .booking{
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    left: 0;
+
+}
+@media (max-width:1068px)
+{
+    .mobile{
+        transform: scale(.91);
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .col-md-6 .booking{
+        text-align: center;
+        align-items: center !important;
+        justify-content: center;
+    }
+}
+.sec h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: hsl(271, 36%, 24%);
+    width: 100%;
+}
+.sec p{
+    color: hsl(270, 7%, 64%);
+    font-size: inherit;
+    width: 100%;
+}
+body::before{
+    position: absolute;
+    content: ""; 
+    width: 26em;
+    height: 39em;
+    top: -40px;
+    left: -50px;
+    background-image:linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-bottom-left-radius: 20em;
+    border-bottom-right-radius: 20em;
+
+}
+body::after{
+    position: absolute;
+    content: ""; 
+    width: 26em;
+    height: 39em;
+    bottom: -40px;
+    right: -50px;
+    background-image:linear-gradient(to right ,hsla(268, 7%, 64%, 0.062),hsla(268, 7%, 64%, 0.055));
+    border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
+    z-index: -1;
+}
+@media(min-width:1069px)
+{
+    body{
+        overflow: hidden;
+    }
+}
+@media(max-width:768px)
+{
+    .col-md-6 .booking{
+        margin: 30px auto;
+        text-align: center;
+        align-items: center !important;
+        justify-content: center;
+        position: absolute;
+        width: 70%;
+        right: 10px;
+    }
+    body::after{
+        position: absolute;
+        content: ""; 
+        width: 26em;
+        height: 30em;
+        bottom: -100px;
+        right: -200px;
+        top: 500px;
+        background-image:linear-gradient(to right ,hsla(268, 7%, 64%, 0.062),hsla(268, 7%, 64%, 0.055));
+        border-top-left-radius: 20em;
+        border-top-right-radius: 20em;
+        z-index: -1;
+    }
+    body::before{
+        position: absolute;
+        content: ""; 
+        width: 26em;
+        height: 38em;
+        top: 0px;
+        left: -200px;
+        background-image:linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+        border-bottom-left-radius: 10em;
+        border-bottom-right-radius: 20em;
+    }
+
+}
+
+
+
+
+
+
+
